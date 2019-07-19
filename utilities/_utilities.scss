@@ -1,0 +1,17 @@
+.green{
+    color:green !important;
+}
+
+.hidden-input{
+
+     &\@md{
+         @include md{
+             display: none;
+         }
+     }
+}
+
+/*Elimina la decoracion del boostrapt*/
+a{
+    text-decoration: none !important;
+}

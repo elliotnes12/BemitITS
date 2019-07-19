@@ -1,0 +1,44 @@
+.c-form{
+    width:400px;
+    background: palegreen;
+    padding: 20px;
+    outline: 1px solid darkblue;
+    margin:0px auto;
+    margin-top: 200px;
+
+
+    .t-light &{
+        background: peru;
+    }
+
+    &__field{
+         box-sizing: border-box;
+         width:100%;
+         display: block;
+         background: peru;
+         padding: 20px;
+         outline: 1px solid palevioletred;
+
+
+         &--last{
+             margin-bottom: 0px;
+         }
+    }
+
+
+
+    &__label{
+        width:100%;
+        display: block;
+        padding-bottom: 5px;
+
+        &--red{
+            color:red;
+        }
+    }
+    &__input{
+        appearance: none;
+        width:100%;
+        display:block;
+    }
+}
